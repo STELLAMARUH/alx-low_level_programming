@@ -1,9 +1,9 @@
-#include "<putchar.h"
+#include "purchar.h"
 
 /**
  * main - entry point
  *
- * Description: Prints alphabet with _putchar
+ * Description: Prints Purchar with _putchar
  *
  * Return: always 0
  */
@@ -12,7 +12,7 @@ int main(void)
 {
 	int i = 0;
 	char c;
-	char s[] = "putchar\n";
+	char s[] = "Purchar\n";
 
 	while (i <= 9)
 	{
