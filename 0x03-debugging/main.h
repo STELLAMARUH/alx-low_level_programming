@@ -1,25 +1,23 @@
-int _putchar(char c);
+#include <stdio.h>
+#include "main.h"
 
-void print_alphabet(void);
+/**
+* main - prints the largest of 3 integers
+* Return: 0
+*/
 
-void print_alphabet_x10(void);
+int main(void)
+{
+	int a, b, c;
+	int largest;
 
-int _islower(int c);
+	a = 972;
+	b = -98;
+	c = 0;
 
-int _isalpha(int c);
+	largest = largest_number(a, b, c);
 
-int print_sign(int n);
+	printf("%d is the largest number\n", largest);
 
-int _abs(int);
-
-int print_last_digit(int);
-
-void jack_bauer(void);
-
-void times_table(void);
-
-int add(int, int);
-
-void print_to_98(int n);
-
-void print_times_table(int n);
+	return (0);
+}
